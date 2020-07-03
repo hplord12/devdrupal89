@@ -1,0 +1,18 @@
+uuid: 0397acee-b1c0-4319-b89e-347052c43785
+langcode: en
+status: true
+dependencies: {  }
+id: stage
+label: stage
+description: ''
+folder: config/stage
+module:
+  contact: 0
+theme: {  }
+blacklist:
+  - views.view.who_s_new
+graylist:
+  - views.view.who_s_new
+graylist_dependents: true
+graylist_skip_equal: true
+weight: 0
