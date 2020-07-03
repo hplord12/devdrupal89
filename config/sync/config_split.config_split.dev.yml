@@ -1,4 +1,4 @@
-uuid: 092e81b7-5eca-41c7-9285-b9d2e4ae2a2f
+uuid: 2cbeee3a-dd2b-40ae-a595-38c285b9fa9b
 langcode: en
 status: true
 dependencies: {  }
@@ -8,11 +8,11 @@ description: ''
 folder: config/dev
 module:
   big_pipe: 0
+  color: 0
+  dblog: 0
 theme: {  }
-blacklist:
-  - views.view.who_s_online
-graylist:
-  - views.view.who_s_online
+blacklist: {  }
+graylist: {  }
 graylist_dependents: true
 graylist_skip_equal: true
 weight: 0

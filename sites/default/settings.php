@@ -803,6 +803,8 @@ $databases['default']['default'] = array (
   'driver' => 'mysql',
 );
 //$settings['config_sync_directory'] = 'sites/default/files/config_pJ0nsdE3QSRGSl0-xrwQ6ZEKZPpN_3ISi5t6_RWDvs3oaC41HmRc_yaU38GPhWhzrQ-1wlcwEQ/sync';
-$settings['config_sync_directory'] = 'config//sync';
+$settings['config_sync_directory'] = 'config/sync';
 
 
+$config['config_split.config_split.dev']['status'] = FALSE;
+$config['config_split.config_split.stage']['status'] = FALSE;
